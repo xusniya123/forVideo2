@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner {
+    max-width: 1440px;
+    border: 2px solid red;
+}
+
+
+.menu {
+    display: flex;
+    width: 1100px;
+    margin: 24px 170px 24px 170px;
+}
+
+.menu img {
+    width: 50px;
+    height: 49.936px;
+    flex-shrink: 0;
+    cursor: pointer;
+}.menu h2 {
+    color: #DE2E54;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 8px 114.5px 8.94px 16px;
+    cursor: pointer;
+}.menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin: 14.47px 114.5px 14.47px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;}
+
+
+.xizmat {
+    color: #DE2E54 !important;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+.btn1 {
+    width: 189px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #FFF;
+    color: #DE2E54;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background: #DE2E54;
+    color: white;
+}
+
+.btn1:active {
+    box-shadow: 14px 14px 13px #e74669;
+}
+
+.header_image {
+    background-image: url(images/image\ 4.png);
+    max-width: 1440px;
+    height: 533px;
+    flex-shrink: 0;
+}
+
+.tabiiy {
+    display: flex;
+
+}
+
+.davolanish p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 137.8px 0 48.91px 170px;
+}
+
+.btn2 {
+    color: #FFF;
+    font-family: "Open Sans Condensed";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: rgba(222, 46, 84, 0.80);
+    border: 0;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.btn2:active {
+    box-shadow: 14px 14px 13px red;
+}
+
+.doktor img {
+    width: 423px;
+    height: 482.284px;
+    flex-shrink: 0;
+    margin: 50.72px 148px 0 0;
+}
+
+.services {
+    max-width: 1440px;
+    height: 866px;
+    border: 1px solid firebrick;
+}
+
+.services h3 {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 69.93px;
+    text-align: center;
+}
+
+.hijoma {
+    width: 864px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    /* border: 1px solid teal; */
+    margin: 32.64px 288px 0 288px;
+}
+
+.hijoma_image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    cursor: pointer;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+.imom h4 {
+    color: #222;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0 533px 24px 0;
+}
+
+.imom p {
+    width: 600px;
+    color: #444;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.manual {
+    width: 864px;
+    height: 200px;
+    /* border: 1px solid lawngreen; */
+    display: flex;
+    margin: 80px 288px 0 288px;
+}
+
+.terapiya h4 {
+    color: #222;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 37.5px 0 24px 0;
+}
+
+.terapiya p {
+    width: 600px;
+    color: #444;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.manual_image img {
+    width: 200px;
+    height: 200px;
+    margin-left: 64px;
+}
+
+
+
+
+.blue {
+    position: relative;
+    max-width: 1440px;
+    height: 669px;
+    flex-shrink: 0;
+    background: #0EB4C1;
+}
+
+.blue_images {
+    position: absolute;
+    top: -94.37px;
+    left: 164px;
+    gap: 62px;
+    cursor: pointer;
+}
+
+.blue_images img:nth-child(1) {
+    margin-right: 62px;
+}
+
+
+
+.blue_images img:nth-child(2) {
+    margin-right: 62px;
+}
+
+.blue_images img:nth-child(2):hover {
+    border-radius: 55% 10% 45% 7% / 50% 10% 54% 8%;
+}
+
+
+.blue .carts {
+    position: absolute;
+    display: flex;
+    gap: 61px;
+    margin: 284px 163px 54px 163px;
+}
+
+.cart1 iframe {
+    width: 513px;
+    height: 331px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.cart2 {
+    width: 540px;
+    height: 331px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    /* border: 1px solid gold; */
+    padding: 27.93px 40px 51.89px 40px;
+}
+
+input {
+    width: 460px;
+    height: 39.105px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 0 6.11px 32px;
+    cursor: pointer;
+}
+
+input:hover {
+    border: 4px solid blue;
+    color: #DE2E54;
+}
+
+
+input::placeholder {
+    color: #3D3B48;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 185.714% */
+    letter-spacing: 0.25px;
+}
+
+input:nth-child(1) {
+    margin-bottom: 19.37px;
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+}
+
+input:nth-child(2) {
+    margin-bottom: 19.37px;
+}
+
+input:nth-child(3) {
+    margin-bottom: 19.37px;
+}
+
+input:nth-child(4) {
+    margin-bottom: 19.37px;
+}
+
+.btn3 {
+    width: 460px;
+    height: 39.105px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 173.333% */
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #222;
+    width: 1440px;
+}
+
+.footer_menu {
+    display: flex;
+    padding: 24px 170px 24px 170px;
+}
+
+.footer_menu img {
+    width: 50px;
+    height: 49.936px;
+    margin-right: 16px;
+}
+
+
+.footer_menu h2 {
+    color: #DE2E54;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 8px 418px 8.94px 0;
+}
+
+
+.footer_menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin: 14.47px 0 14.47px 0;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.xizmat2 {
+    color: #DE2E54 !important;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
